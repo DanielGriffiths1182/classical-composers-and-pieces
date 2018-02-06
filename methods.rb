@@ -43,16 +43,6 @@ delete '/api/composers/:id' do
   composer.destroy
   nil
 end
-#put '/api/composers/:id' do
-
-#end
-
-#delete '/api/composers/:id' do
-
-#end
-
-
-
 
 get '/api/pieces' do
   pieces = Piece.all
@@ -90,11 +80,3 @@ delete '/api/pieces/:id' do
   piece.destroy
   nil
 end
-#Piece.order(name: something)
-#put '/api/pieces/:id' do
-#piece.delete
-#end
-
-#delete '/api/pieces/:id' do
-
-#end
